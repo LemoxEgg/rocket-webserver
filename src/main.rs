@@ -2,7 +2,7 @@ use std::path::{Path, PathBuf};
 
 use rocket::{fs::NamedFile, get, launch, response::Redirect, routes, uri};
 
-const DEFAULT_PATH: &str = "/ssd/www";
+const DEFAULT_PATH: &str = "/ssd/site-portfolio/www";
 
 #[launch]
 fn rocket() -> _ {
